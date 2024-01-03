@@ -7,7 +7,19 @@ Nicola Viscillo & Nicola Galiero, studenti di Informatica presso "Università de
 ## Tecnologie utilizzate
 In questo progetto abbiamo utilizzato:
 - LINGUAGGI DI PROGRAMMAZIONE:
-  * javascript;
-  * css.
+  * Css;
+  *# Javascript:
+     * 
+    
   
-### vsdv
+  
+- API:
+  * Google authentication (per l'autenticazione degli account)
+  * Stripe (per i pagamenti)
+  * 
+  *
+  
+- ALTRE FONTI ESTERNE o FRAMEWORK:
+  * MongoDB
+  * Nextauth.js (
+  * Tailwind CSS
