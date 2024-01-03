@@ -8,9 +8,10 @@ Nicola Viscillo & Nicola Galiero, studenti di Informatica presso "Università de
 In questo progetto abbiamo utilizzato:
 - LINGUAGGI DI PROGRAMMAZIONE:
   * Css;
-  *# Javascript:
-     * 
-    
+  * Javascript:
+
+Sempre legato a Javascipt, abbiamo usato la libreria React.js per 
+    (next.js è basatp su react.js)
   
   
 - API:
@@ -22,4 +23,4 @@ In questo progetto abbiamo utilizzato:
 - ALTRE FONTI ESTERNE o FRAMEWORK:
   * MongoDB
   * Nextauth.js (
-  * Tailwind CSS
+  * Tailwind CSS (per la struttura del sito Admin)
