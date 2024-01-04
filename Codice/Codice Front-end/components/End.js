@@ -36,7 +36,7 @@ const PaymentMethodsImages = styled.div`
 
 export default function End() {
     return (
-        <StyledHeader>
+        <><StyledHeader>
             <Colonna>
                 <h3>About Us</h3>
                 <p>Il nostro E-commerce è stato sviluppato per rendere l esperienza di acquisto e di visualizzazione rapida e alla portata di tutti</p>
@@ -44,25 +44,24 @@ export default function End() {
 
             <Colonna>
                 <h3>Contact Info</h3>
-                <p><EmailIcon /> nicola.galiero001@studenti.uniparthenope.it</p> 
+                <p><EmailIcon /> nicola.galiero001@studenti.uniparthenope.it</p>
                 <p><EmailIcon /> nicola.viscillo001@studenti.uniparthenope.it</p>
             </Colonna>
 
             <Colonna>
                 <h3>Payment Methods</h3>
                 <PaymentMethodsImages>
-                {/* Inserisci le tue immagini qui */}
+                    {/* Inserisci le tue immagini qui */}
                     <MastercardIcon />
                     <AmericanExpressIcon />
-                    <UnionPayIcon />  
-                    <VisaIcon />                 
+                    <UnionPayIcon />
+                    <VisaIcon />
                 </PaymentMethodsImages>
             </Colonna>
-        </StyledHeader>
+        </StyledHeader><StyledHeader>
+                <Powered>Creato e sviluppato da Nicola Galiero e Nicola Viscillo</Powered>
+        </StyledHeader></>
         ); 
         
 
- }   
-       
-
-   
+ }  
