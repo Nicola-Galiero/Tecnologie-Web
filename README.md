@@ -15,7 +15,7 @@ In questo progetto abbiamo utilizzato:
   * Javascript.
 
 Sempre legato a Javascipt, abbiamo usato la libreria React.js per 
-    (next.js è basatp su react.js)
+    (next.js è basato su react.js)
   
   
 - API:
