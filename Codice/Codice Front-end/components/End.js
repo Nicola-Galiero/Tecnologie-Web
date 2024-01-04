@@ -1,30 +1,26 @@
 import styled from "styled-components";
-import Center from "./Center";
+import MastercardIcon from "./icons/MastercardIcon";
+import AmericanExpressIcon from "./icons/AmericanExpressIcon";
+import UnionPayIcon from "./icons/UnionPayIcon";
+import VisaIcon from "./icons/VisaIcon";
+import EmailIcon from "./icons/EmailIcon";
 
 const StyledHeader = styled.header`
-    background-color: #1a1a1a;    
-    margin: 0;
-    padding: 0;
-    height: 200px; 
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start; 
 `;
 
 const Colonna = styled.div`
-    background-color: #1a1a1a;
-    color: #fff;
-    padding: 20px;
-    margin-top: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
     text-align: center;
-`;
-
-const Coln = styled.div`
-    padding: 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
+    align-self: flex-start; 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Allinea gli elementi al centro verticalmente */
 `;
 
 const Powered = styled.div`
@@ -33,24 +29,40 @@ const Powered = styled.div`
     color: #ffffff;
 `;
 
+const PaymentMethodsImages = styled.div`
+    padding: 7px;
+    justify-content: space-around;
+`;
+
 export default function End() {
     return (
         <StyledHeader>
-            <Center>
-                <Colonna>
-                    <Coln>
-                        <h3>About us</h3>
-                    </Coln>
-                    <Coln>
-                        <h3>Payment methods</h3>
+            <Colonna>
+                <h3>About Us</h3>
+                <p>Il nostro E-commerce è stato sviluppato per rendere l esperienza di acquisto e di visualizzazione rapida e alla portata di tutti</p>
+            </Colonna>
 
-                    </Coln>
-                    
-                </Colonna>
-                <Powered><h6>Powered by Nicola Galiero and Nicola Viscillo</h6></Powered>
-            </Center>
+            <Colonna>
+                <h3>Contact Info</h3>
+                <p><EmailIcon /> nicola.galiero001@studenti.uniparthenope.it</p> 
+                <p><EmailIcon /> nicola.viscillo001@studenti.uniparthenope.it</p>
+            </Colonna>
+
+            <Colonna>
+                <h3>Payment Methods</h3>
+                <PaymentMethodsImages>
+                {/* Inserisci le tue immagini qui */}
+                    <MastercardIcon />
+                    <AmericanExpressIcon />
+                    <UnionPayIcon />  
+                    <VisaIcon />                 
+                </PaymentMethodsImages>
+            </Colonna>
         </StyledHeader>
-
+        ); 
         
-    );
-}
+
+ }   
+       
+
+   
