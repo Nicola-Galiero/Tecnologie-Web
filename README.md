@@ -11,7 +11,6 @@ Nicola Viscillo & Nicola Galiero, studenti di Informatica presso "Università de
 ## Tecnologie utilizzate
 In questo progetto abbiamo utilizzato:
 - LINGUAGGI DI PROGRAMMAZIONE:
-  * Css;
   * Javascript.
 
 Sempre legato a Javascipt, abbiamo usato la libreria React.js per 
