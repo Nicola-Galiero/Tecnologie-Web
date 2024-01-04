@@ -1,4 +1,7 @@
 (in fase di sviluppo)
+Front-end : https://my-ecommerce-front-chi.vercel.app/
+
+Back-end : https://my-ecommerce-admin-five.vercel.app/
 # ENNESHOES
 
 
