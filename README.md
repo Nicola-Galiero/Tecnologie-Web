@@ -20,8 +20,7 @@ Sempre legato a Javascipt, abbiamo usato la libreria React.js per
 - API:
   * Google authentication (per l'autenticazione degli account)
   * Stripe (per i pagamenti)
-  * 
-  *
+
   
 - ALTRE FONTI ESTERNE o FRAMEWORK:
   * MongoDB
