@@ -17,11 +17,10 @@ Sempre legato a Javascipt, abbiamo usato la libreria React.js per
   
   
 - API:
-  * Google authentication (per l'autenticazione degli account)
+  * Google authentication (per l'autenticazione degli account, sia per il sito front-end sia per il back-end)
   * Stripe (per i pagamenti)
 
   
 - ALTRE FONTI ESTERNE o FRAMEWORK:
   * MongoDB
-  * Nextauth.js (
   * Tailwind CSS (per la struttura del sito Admin)
